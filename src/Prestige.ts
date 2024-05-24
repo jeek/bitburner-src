@@ -225,7 +225,7 @@ export function prestigeSourceFile(isFlume: boolean): void {
       name: AugmentationName.NeuroFluxGovernor,
       level: Math.min(
         35842,
-        Player.bitNodeN === 12 ? Player.sourceFileLvl(12) : Math.min(50, Player.sourceFileLvl(12)),
+        Player.bitNodeN === 12 ? Player.sourceFileLvl(12) : Math.min(50, Player.sourceFile)
       ),
     });
   }
